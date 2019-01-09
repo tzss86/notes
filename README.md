@@ -51,8 +51,20 @@ $ git config --global --unset user.email [email] 删除邮箱
 * show local and remote branch :git branch -a 
 * fetch remote branch: git fetch origin dev(dev is another branch on remote)
 * switch master to dev (first time): git checkout -b dev
-* switch master to dev :git checkout dev 
-* clone remote dev branch : git clone -b dev https://xxxxxx
+* switch master to dev :git checkout dev
+
+##### clone remote branch dev2
+
+* clone remote dev branch : git clone -b dev2 https://xxxxxx
+
+##### create new local branch dev3
+
+* add local new branch: git branch dev3
+* switch to dve3 : git checkout dev3
+* modify some code and add/commit
+* git remote add dev3 https://github.com/tzss86/notes.git
+* push to remote : git push origin dev3
+* pull : git pull origin dev3
 
 ##### operation
 
