@@ -52,6 +52,7 @@ $ git config --global --unset user.email [email] 删除邮箱
 * fetch remote branch: git fetch origin dev(dev is another branch on remote)
 * switch master to dev (first time): git checkout -b dev
 * switch master to dev :git checkout dev 
+* clone remote dev branch : git clone -b dev https://xxxxxx
 
 ##### operation
 
