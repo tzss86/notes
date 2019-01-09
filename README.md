@@ -66,6 +66,13 @@ $ git config --global --unset user.email [email] 删除邮箱
 * push to remote : git push origin dev3
 * pull : git pull origin dev3
 
+##### 合并分支
+
+* add/commit modify on dev branch
+* git checkout master
+* git merge dev
+
+
 ##### operation
 
 * 放弃本地修改某文件：reset modify
