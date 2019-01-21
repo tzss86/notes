@@ -77,6 +77,7 @@ $ git config --global --unset user.email [email] 删除邮箱
 
 * 放弃本地修改某文件：reset modify
 : git checkout -- `<file>...`
+* 放弃所有本地修改：git checkout . 
 * 撤销本地添加：reset add
 : git reset HEAD `<file>`
 * 撤销本地提交（还没有push到远端）：reset commit 
